@@ -41,25 +41,130 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, magni similique. Ut accusamus nemo praesentium culpa deserunt nihil ducimus ipsum facilis provident a sequi fugiat magnam, harum dicta doloremque veritatis.</p>
     </article>
     <article>
-        <h2>Articulo 1</h2>
+        <!-- sub es para subindice
+             sup es superindice
+             time datetime es para fechas
+             &hearts es para poner un corazon -->
+        <h2>Articulo 3</h2>
+        <p> &hearts; 💖 H <sub>2</sub>O x <sup>2</sup> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem laboriosam impedit sunt adipisci unde velit id voluptatum et natus, incidunt, ut mollitia non est accusantium quam itaque. Possimus, neque optio!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero dolor quaerat odio illum! In adipisci voluptates, at facere culpa nulla cumque unde eos nesciunt voluptas cum, natus doloribus? Numquam, eaque.</p>
+        <p> <time datetime="2022-10-15">15 de octubre del 2022</time> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, magni similique. Ut accusamus nemo praesentium culpa deserunt nihil ducimus ipsum facilis provident a sequi fugiat magnam, harum dicta doloremque veritatis.</p>
+    </article>
+    <article>
+        <h2>Articulo 4</h2>
+        <!-- poner un video 
+        pagina pexels para imagenes y videos-->
+        <p>
+            <!-- imagenes -->
+            <img src="halloween.jpg" alt="halloween">
+
+            <!-- videos -->
+            <video controls width="500" src="video.mp4"></video>
+
+            <!-- doc de cualquier cosa -->
+            <embed src="Material_DesarrolloWeb.pdf" width="800" height="600" type="application/pdf">
+
+            <!-- video de youtube -->
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/idh_hoYPB1M" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
+            clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen></iframe>
+
+
+
+           <br> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem laboriosam impedit sunt adipisci unde velit id voluptatum et natus, incidunt, ut mollitia non est accusantium quam itaque. Possimus, neque optio!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero dolor quaerat odio illum! In adipisci voluptates, at facere culpa nulla cumque unde eos nesciunt voluptas cum, natus doloribus? Numquam, eaque.</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, magni similique. Ut accusamus nemo praesentium culpa deserunt nihil ducimus ipsum facilis provident a sequi fugiat magnam, harum dicta doloremque veritatis.</p>
+    </article>
+    <article>
+        <h2>Articulo 4</h2>
+
+        <!-- tablas 
+        th es para negritas
+        rowspan es para filas
+        colspan es para juntar dos columnas-->
+        <table border="1">
+            <thead>
+                <tr>
+                <th>Carrera</th>
+                <th>Siglas</th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Licenciatura en Tecnologia de Informacion</td>
+                <td>LTI</td>
+            </tr>
+            <tr>
+                <td colspan="2">Licenciatura en Administracion</td>
+                <!-- <td>LA</td> -->
+            </tr>
+            </tbody>
+            
+        </table>
+
+
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem laboriosam impedit sunt adipisci unde velit id voluptatum et natus, incidunt, ut mollitia non est accusantium quam itaque. Possimus, neque optio!</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero dolor quaerat odio illum! In adipisci voluptates, at facere culpa nulla cumque unde eos nesciunt voluptas cum, natus doloribus? Numquam, eaque.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, magni similique. Ut accusamus nemo praesentium culpa deserunt nihil ducimus ipsum facilis provident a sequi fugiat magnam, harum dicta doloremque veritatis.</p>
     </article>
     <article>
-        <h2>Articulo 1</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem laboriosam impedit sunt adipisci unde velit id voluptatum et natus, incidunt, ut mollitia non est accusantium quam itaque. Possimus, neque optio!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero dolor quaerat odio illum! In adipisci voluptates, at facere culpa nulla cumque unde eos nesciunt voluptas cum, natus doloribus? Numquam, eaque.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, magni similique. Ut accusamus nemo praesentium culpa deserunt nihil ducimus ipsum facilis provident a sequi fugiat magnam, harum dicta doloremque veritatis.</p>
-    </article>
-    <article>
-        <h2>Articulo 1</h2>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem laboriosam impedit sunt adipisci unde velit id voluptatum et natus, incidunt, ut mollitia non est accusantium quam itaque. Possimus, neque optio!</p>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero dolor quaerat odio illum! In adipisci voluptates, at facere culpa nulla cumque unde eos nesciunt voluptas cum, natus doloribus? Numquam, eaque.</p>
-        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, magni similique. Ut accusamus nemo praesentium culpa deserunt nihil ducimus ipsum facilis provident a sequi fugiat magnam, harum dicta doloremque veritatis.</p>
-    </article>
-    <article>
-        <h2>Articulo 1</h2>
+        <h2>Articulo 5</h2>
+        <form action="">
+            <fieldset>
+                <legend>Datos Generales</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+
+                <label for="pagina-personal">Pagina</label>
+                <input type="url" name="pagina" id="pagina">
+
+                <label for="fechaNac">Fecha de Nac</label>
+                <input type="date" name="fecha" id="fecha">
+
+                <label for="Semana">Semana recepcion envio</label>
+                <input type="week" name="semana" id="semana">
+
+                <label for="color">Color</label>
+                <input type="color" name="color" id="color">
+                <br>
+
+                <label for="clave">Password</label>
+                <input type="password" name="clave" id="clave">
+                <br>
+                <label for="range">Rango</label>
+                <input type="range" name="edad" id="edad">
+                <br>
+                <label for="pasatiempos">Pasatiempos</label>
+                <br>
+                <textarea name="pasatiempos" id="pasatiempos" cols="30" rows="10"></textarea>
+
+                <select name="carreras" id="carreras">
+                    
+
+                    <optgroup label="Carreras consolidadas">
+                        <option value="8">LTI</option>
+                        <option value="2">LA</option>
+                        <option value="1">CP</option>
+                        <option value="12">LNI</option>
+                    </optgroup>
+
+                    <optgroup label="Nueva carrera">
+                        <option value="13">LGRS</option>
+                    </optgroup>
+
+                </select>
+
+                <select name="carrera" id="carrera">
+                    <option value="8">LTI</option>
+                    <option value="2">LA</option>
+                    <option value="1">CP</option>
+                    <option value="12">LNI</option>
+                </select>
+
+            </fieldset>
+        </form>
+
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Exercitationem laboriosam impedit sunt adipisci unde velit id voluptatum et natus, incidunt, ut mollitia non est accusantium quam itaque. Possimus, neque optio!</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Libero dolor quaerat odio illum! In adipisci voluptates, at facere culpa nulla cumque unde eos nesciunt voluptas cum, natus doloribus? Numquam, eaque.</p>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci, magni similique. Ut accusamus nemo praesentium culpa deserunt nihil ducimus ipsum facilis provident a sequi fugiat magnam, harum dicta doloremque veritatis.</p>
